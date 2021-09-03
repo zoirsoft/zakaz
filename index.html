@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="zakaz">
+        <p>Pizza7777</p> 
+
+        <form action="telegram.php" method="POST">
+    
+            <p>Ism <input type="text" name="user_name"> </p>
+    
+            <p>Telefon <input type="text" name="user_phone"> </p>
+    
+            <p>Email <input type="text" name="user_email"> </p>
+    
+    
+            <p>Address 
+            <select name="user_address" >
+                    <option value="Chilonzor">Chilonzor</option>
+                    <option value="Yunusobod">Yunusobod</option>
+                    <option value="Mirobod">Mirobod</option>
+            </select> </p>
+    
+            
+            <p>To'lov turi: <input type="radio" name="payment" value="Naqd" > Naqd <input type="radio" name="payment" value="Karta" > Karta</p>
+    
+
+            <p>Dostavka : <input type="checkbox" name="dostavka" value="Dostavka"> ok</p>
+            <p>Soboy: <input type="checkbox" name="dostavka" value="Soboy"> ok</p>
+    
+    
+            <p>Komment qoldiring<textarea name="user_comment" id="" cols="30" rows="5"></textarea></p>
+    
+
+            <button type="submit">Buyurtma berish</button>
+    
+        </form>
+    </div>
+
+   
+
+
+</body>
+</html>
